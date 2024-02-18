@@ -1,0 +1,396 @@
+/* Establece que todos los elementos del documento utilizarán la fuente "Kode Mono" */
+* {
+    font-family: "Kode Mono", monospace;
+}
+
+/* Establece el color de fondo del cuerpo del documento */
+body {
+    background-color: rgb(241, 231, 220);
+    /* Elimina los márgenes predeterminados */
+    margin: 0;
+    /* Elimina el relleno predeterminado */
+    padding: 0;
+    /* Elimina el borde predeterminado */
+    border: 0;
+}
+
+/* Establece estilos para los elementos <h5> */
+h5 {
+    /* Define un margen de 10px en todos los lados */
+    margin: 10px;
+    /* Establece el color del texto en blanco */
+    color: rgb(255, 255, 255);
+    /* Establece el tamaño de fuente en 1rem */
+    font-size: 1rem;
+}
+
+/* Establece que los elementos <a> no tendrán decoración de texto (subrayado) */
+a {
+    text-decoration: none;
+}
+
+/* Establece estilos para la barra de navegación */
+.navegacion {
+    /* Establece la presentación como flexbox */
+    display: flex;
+    /* Alinea los elementos verticalmente */
+    align-items: start;
+    /* Distribuye el espacio entre los elementos */
+    justify-content: space-between;
+    /* Establece el color de fondo */
+    background-color: rgb(102, 63, 26);
+    /* Añade un relleno de 10px */
+    padding: 10px;
+}
+
+/* Establece estilos para las imágenes de navegación */
+.img-nav {
+    /* Establece un ancho de 30px */
+    width: 30px;
+    /* Establece una altura de 30px */
+    height: 30px;
+    /* Establece un margen de 5px en todos los lados */
+    margin: 5px;
+}
+
+/* Establece estilos para el contenedor de botones */
+.buttom {
+    /* Establece la presentación como flexbox */
+    display: flex;
+}
+
+/* Establece estilos para la sección 1 */
+.seccion-1 {
+    /* Establece la presentación como flexbox */
+    display: flex;
+    /* Alinea los elementos verticalmente */
+    align-items: center;
+    /* Distribuye el espacio entre los elementos */
+    justify-content: center;
+    /* Añade un margen de 15px */
+    margin: 15px;
+    /* Establece el tamaño de fuente en 12px */
+    font-size: 12px;
+    /* Añade un relleno de 2rem */
+    padding: 2rem;
+}
+
+/* Establece estilos para la imagen del carrusel */
+.imgcarrusel {
+    /* Establece un ancho del 100% */
+    width: 100%;
+    /* Establece una altura de 15rem */
+    height: 15rem;
+    /* Escala la imagen para cubrir el área definida */
+    object-fit: cover;
+}
+
+/* Establece estilos para la imagen del "acerca de" */
+.acerca-imagen {
+    /* Establece un ancho de 10rem */
+    width: 10rem;
+    /* Establece una altura de 10rem */
+    height: 10rem;
+}
+
+/* Establece estilos para el párrafo 1 */
+.parrafo1 {
+    /* Establece un ancho del 95% */
+    width: 95%;
+}
+
+/* Establece estilos para el párrafo 2 */
+.parrafo2 {
+    /* Establece un ancho del 95% */
+    width: 95%;
+}
+
+/* Establece estilos para el contenedor "acerca de" */
+.acerca-de {
+    /* Establece un ancho del 40% */
+    width: 40%;
+}
+
+/* Establece estilos para el contenedor "cositas" */
+.cositas {
+    /* Establece la presentación como flexbox */
+    display: flex;
+    /* Añade un relleno de 3rem */
+    padding: 3rem;
+    /* Alinea los elementos verticalmente */
+    align-items: center;
+}
+
+/* Establece estilos para la imagen "part1img" */
+.part1img {
+    /* Establece un ancho de 15rem */
+    width: 15rem;
+    /* Establece una altura de 15rem */
+    height: 15rem;
+}
+
+/* Establece estilos para el contenedor "part1" */
+.part1 {
+    /* Establece la presentación como flexbox */
+    display: flex;
+    /* Coloca los elementos en columna */
+    flex-direction: column;
+    /* Alinea los elementos verticalmente */
+    justify-content: center;
+    /* Alinea los elementos horizontalmente */
+    align-items: center;
+    /* Añade un relleno de 1rem */
+    padding: 1rem;
+}
+
+/* Establece estilos para el contenedor "part2" */
+.part2 {
+    /* Establece la presentación como flexbox */
+    display: flex;
+    /* Coloca los elementos en columna */
+    flex-direction: column;
+    /* Alinea los elementos verticalmente */
+    justify-content: center;
+    /* Alinea los elementos horizontalmente */
+    align-items: center;
+    /* Añade un relleno de 1rem */
+    padding: 1rem;
+}
+
+/* Establece estilos para la imagen "part2img" */
+.part2img {
+    /* Establece un ancho de 15rem */
+    width: 15rem;
+    /* Establece una altura de 15rem */
+    height: 15rem;
+}
+
+/* Establece estilos para el título "part1title" */
+.part1title {
+    /* Establece un tamaño de fuente de 1.5rem */
+    font-size: 1.5rem;
+    /* Alinea el texto al centro */
+    text-align: center;
+    /* Establece el color del texto */
+    color: rgb(153, 12, 12);
+}
+
+/* Establece estilos para el título "part2title" */
+.part2title {
+    /* Establece un tamaño de fuente de 1.5rem */
+    font-size: 1.5rem;
+    /* Alinea el texto al centro */
+    text-align: center;
+    /* Establece el color del texto */
+    color: rgb(153, 12, 12);
+}
+
+/* Establece estilos para el cuerpo del texto "part1body" */
+.part1body {
+    /* Establece un tamaño de fuente de 0.8rem */
+    font-size: 0.8rem;
+    /* Alinea el texto al inicio */
+    text-align: start;
+}
+
+/* Establece estilos para el cuerpo del texto "part2body" */
+.part2body {
+    /* Establece un tamaño de fuente de 0.8rem */
+    font-size: 0.8rem;
+    /* Alinea el texto al inicio */
+    text-align: start;
+}
+
+/* Establece estilos para el cuerpo del texto "sabms" */
+.sabms {
+    /* Establece un tamaño de fuente de 1rem */
+    font-size: 1rem;
+    /* Establece el color del texto */
+    color: rgb(221, 15, 15);
+}
+
+.footer img  {
+    width: 1rem;
+  }
+
+.footer {
+    display: flex;
+    flex-direction: column; /* Cambiar la dirección de los elementos a columna */
+    align-items: flex-start; /* Alinear los elementos a la izquierda */
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+
+.footer-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Espacio entre cada ícono y su párrafo */
+}
+
+.footer-item img {
+    width: 20px; /* Ajustar el ancho según sea necesario */
+    margin-right: 5px; /* Espacio entre la imagen y el texto */
+}
+
+.navegacion {
+    display: flex;
+    align-items: start;
+}
+
+/* Estilos para pantallas más pequeñas (hasta 768px) */
+/* Estilos para pantallas más pequeñas (hasta 768px) */
+@media (max-width: 768px) {
+    .seccion-1, .cositas, .navegacion {
+        display: flex;
+        justify-content: center; /* Alinear horizontalmente al centro */
+        align-items: center; /* Alinear verticalmente al centro */
+        font-size: 10px;
+        flex-direction: column;
+    }
+}
+
+.form-header {
+    text-align: center;
+    background-color: #f6f7f8;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+  
+    width: 80%;
+    margin: 10px auto;
+    padding: 50px;
+  }
+  
+  .form-header h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  /* ------------- Formulario ------------- */
+  
+  .formulario {
+    background-color: #f6f7f8;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+  
+    width: 80%;
+    padding: 50px;
+    margin: 30px 0 40px 0;
+  }
+
+  /* ------------- Campos del Formulario ------------- */
+
+.form-row {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .form-row input[type="text"],
+  .form-row input[type="email"] {
+    background-color: #bdbdbd;
+    border: 0;
+    border-radius: 6px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+  }
+  
+  .form-row label {
+    margin-bottom: 3px;
+    text-align: initial;
+  }
+
+  /* ------------- Para Pantallas de más de 700px ------------- */
+@media only screen and (min-width: 700px) {
+    .form-header {
+      padding: 50px;
+    }
+  
+    .form-row {
+      flex-direction: row;
+      align-items: flex-start;
+      margin-bottom: 20px;
+    }
+    .form-row input[type="text"] {
+      width: 250px;
+      height: initial;
+    }
+    .form-row label {
+      text-align: right;
+      width: 120px;
+      margin-top: 7px;
+      padding-right: 20px;
+    }
+  }
+
+  .form-row textarea {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+  
+  
+    background-color: #bdbdbd;
+    border: 0;
+    border-radius: 6px;
+  
+  
+    min-height: 200px;
+    margin-bottom: 10px;
+    padding: 7px;
+    resize: none;
+  
+  
+    width: 100%;
+  }
+  /* ------------- Para Pantallas de más de 700px ------------- */
+  
+  
+  .form-row textarea {
+      width: 250px;
+    }
+  
+
+    .form-row button {
+        font-size: 16px;
+        font-weight: bold;
+      
+      
+        color: #ffffff;
+        background-color: #5995da;
+      
+      
+        border: none;
+        border-radius: 3px;
+      
+      
+        padding: 10px 40px;
+        cursor: pointer;
+      }
+      
+      
+      .form-row button:hover {
+        background-color: #76aeed;
+      }
+      
+      
+      .form-row button:active {
+        background-color: #407fc7;
+      }
+      
+      
+      /* ------------- Para Pantallas de más de 700px ------------- */
+      
+      
+      .form-row button {
+          margin-left: 120px;
+        
+      }
+
+.formularioxd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
