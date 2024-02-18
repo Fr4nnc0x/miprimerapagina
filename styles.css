@@ -394,3 +394,11 @@ a {
     align-items: center;
     width: 100%;
 }
+
+.greeting {
+    display: flex;
+    width: 25%;
+    background-color: #dcdee0;
+    padding: 10px;
+    margin: 1rem;
+}
